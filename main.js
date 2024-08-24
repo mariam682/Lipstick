@@ -1,6 +1,7 @@
 let body = document.getElementById("body");
 let light = 0; 
 let img = document.getElementById("img");
+
 function dark() {
     if (light == 1) {
         body.style.backgroundColor = "white";
